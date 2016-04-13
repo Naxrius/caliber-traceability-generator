@@ -1,0 +1,1530 @@
+------------------------------------------------
+Traceability for 3.3.1 Modified Process
+------------------------------------------------
+UCAMOD001-01 Establish if the Request is Due to No Secondary ID Only: 
+
+	Traces from: 
+		UCMOD001 Categorize Individual and Issue AD Form
+
+	Traces to: 
+		FRQMOD0041-1
+		FRQMOD0033-2
+
+------------------------------------------------
+UCAMOD001-02 Establish That the Individual Is Eligible For the Modified Process:  
+
+	Traces from: 
+		UCMOD001 Categorize Individual and Issue AD Form
+
+	Traces to: 
+		FRQMOD0094-1
+		FRQMOD0013-1
+		FRQMOD0013-2
+		FRQMOD0013-3
+		FRQMOD0014-1
+		FRQMOD0014-2
+		FRQMOD0029-1
+		FRQMOD0029-2
+		FRQMOD0029-3
+		FRQMOD0029-5
+		FRQMOD0030-1
+		FRQMOD0030-2
+		FRQMOD0030-3
+		FRQMOD0030-5
+		FRQMOD0053-1
+		FRQMOD0053-2
+		FRQMOD0070-1
+		FRQMOD0127-2
+		FRQMOD0053-3
+		FRQMOD0053-4
+		FRQMOD0096-1
+		FRQMOD0079-1
+		FRQMOD0079-3
+		FRQMOD0095-1
+		FRQMOD0095-2
+		FRQMOD0095-4
+		FRQMOD0134-5
+		FRQMOD0127-1
+		FRQMOD0044-2
+
+------------------------------------------------
+UCAMOD001-03 Issue Attestation/Declaration Form: 
+
+	Traces from: 
+		FRQMOD0128-2
+		FRQMOD0128-1
+		UCMOD001 Categorize Individual and Issue AD Form
+
+	Traces to: 
+		FRQMOD0030-4
+		FRQMOD0028-2
+		FRQMOD0029-4
+
+------------------------------------------------
+UCAMOD001-04 Capture Attestation/Declaration Form Issuance: 
+
+	Traces from: 
+		UCMOD001 Categorize Individual and Issue AD Form
+
+	Traces to: 
+		FRQMOD0003-2
+		FRQMOD0003-1
+		FRQMOD0014-3
+
+------------------------------------------------
+UCAMOD001-E1.1 Refer Individual to ICBC: 
+
+	Traces from: 
+		UCMOD001 Categorize Individual and Issue AD Form
+
+	Traces to: 
+		FRQMOD0033-3
+
+------------------------------------------------
+UCAMOD001-E2.1 Deny Request for AD Form: Individual is not eligible for Modified Process. Following UCMOD001-02, deny the request for an AD form.
+
+	Traces from: 
+		UCMOD001 Categorize Individual and Issue AD Form
+
+	Traces to: 
+		FRQMOD0014-3
+
+------------------------------------------------
+UCAMOD001-E2.2 Communicate the Denial Details to the Individual: 
+
+	Traces from: 
+		UCMOD001 Categorize Individual and Issue AD Form
+
+	Traces to: 
+		FRQMOD0061-1
+
+------------------------------------------------
+UCAMOD002-01 Establish that criteria for Modified Enrolment Health Reason are met: Copy of Primary ID is received AD Form is complete and meets the defined criteria Attester meets the defined qualification criteria   Use Case / Activity Functional Requirements Non-Functional Requirements 1.1 Establish that a copy of Primary Id is received   FRQMOD0032-1, FRQMOD0045-1     1.2 Establish that AD form is complete and meets the defined criteria   FRQMOD0006-2, FRQMOD0006-3 FRQMOD0129-1 FRQMOD0130-1 FRQMOD0045-4, FRQMOD0045-5, FRQMOD0045-7, FRQMOD0045-8 FRQMOD0038-1, FRQMOD0038-2 FRQMOD0043-4, FRQMOD0043-5 FRQMOD0055-4 FRQMOD0062-2 FRQMOD0082-1, FRQMOD0082-2 FRQMOD0096-1, FRQMOD0096-2 FRQMOD0097-1, FRQMOD0097-2   1.3 Establish that Attester meets the defined qualification criteria   FRQMOD0011-1, FRQMOD0011-2 FRQMOD0018-1, FRQMOD0018-2, FRQMOD0018-3, FRQMOD0018-4, FRQMOD0018-5 FRQMOD0019-1 FRQMOD0020-3 FRQMOD0021-3 FRQMOD0025-1, FRQMOD0025-2, FRQMOD0025-3 FRQMOD0004-1, FRQMOD0004-2  
+
+	Traces from: 
+		UCMOD002 Process Modified Enrolment for Health Reason
+
+	Traces to: 
+		FRQMOD0018-4
+		FRQMOD0097-1
+		FRQMOD0045-4
+		FRQMOD0097-2
+		FRQMOD0025-3
+		FRQMOD0045-7
+		FRQMOD0096-1
+		FRQMOD0011-1
+		FRQMOD0045-1
+		FRQMOD0082-2
+		FRQMOD0021-3
+		FRQMOD0038-1
+		FRQMOD0019-1
+		FRQMOD0018-5
+		FRQMOD0045-5
+		FRQMOD0011-2
+		FRQMOD0129-1
+		FRQMOD0062-2
+		FRQMOD0032-1
+		FRQMOD0004-2
+		FRQMOD0018-1
+		FRQMOD0018-2
+		FRQMOD0018-3
+		FRQMOD0020-3
+		FRQMOD0025-1
+		FRQMOD0045-8
+		FRQMOD0096-2
+		FRQMOD0025-2
+		FRQMOD0043-4
+		FRQMOD0006-3
+		FRQMOD0043-5
+		FRQMOD0006-2
+		FRQMOD0038-2
+		FRQMOD0004-1
+		FRQMOD0055-4
+		FRQMOD0082-1
+		FRQMOD0130-1
+
+------------------------------------------------
+UCAMOD002-02 Assign Regular Modified status: 
+
+	Traces from: 
+		UCMOD002 Process Modified Enrolment for Health Reason
+
+	Traces to: 
+		FRQMOD0083-1
+		FRQMOD0081-1
+		FRQMOD0083-4
+
+------------------------------------------------
+UCAMOD002-03 Provide appropriate term of MSP coverage: 
+
+	Traces from: 
+		UCMOD002 Process Modified Enrolment for Health Reason
+
+	Traces to: 
+		None
+
+------------------------------------------------
+UCAMOD002-04 Request Non-Photo BC Services card: 
+
+	Traces from: 
+		UCMOD002 Process Modified Enrolment for Health Reason
+
+	Traces to: 
+		FRQMOD0031-1
+		FRQMOD0031-2
+
+------------------------------------------------
+UCAMOD002-05 Communicate approval details to applicant: 
+
+	Traces from: 
+		UCMOD002 Process Modified Enrolment for Health Reason
+
+	Traces to: 
+		FRQMOD0031-3
+
+------------------------------------------------
+UCAMOD002-A1.1 Reject the application: Criteria for Modified Enrolment for Health Reason are not met. Following UCMOD002-01, reject the application and capture details.
+
+	Traces from: 
+		UCMOD002 Process Modified Enrolment for Health Reason
+
+	Traces to: 
+		FRQMOD0043-4
+		FRQMOD0059-5
+		FRQMOD0011-3
+
+------------------------------------------------
+UCAMOD002-A1.2 Communicate rejection details to applicant: 
+
+	Traces from: 
+		UCMOD002 Process Modified Enrolment for Health Reason
+
+	Traces to: 
+		FRQMOD0038-3
+		FRQMOD0061-1
+
+------------------------------------------------
+UCAMOD003-01 Establish the application for Modified Enrolment for OOP Studies meets the criteria: Establish the application for Modified Enrolment for OOP Studies meets the criteria A copy of primary ID is received The Attestation/Declaration form is complete and meets the defined criteria for OOP Studies The proof of OOP studies is received and meets the defined criteria  
+
+	Traces from: 
+		UCMOD003 Process Modified Enrolment for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0038-2
+		FRQMOD0045-7
+		FRQMOD0006-2
+		FRQMOD0082-2
+		FRQMOD0046-6
+		FRQMOD0096-1
+		FRQMOD0055-4
+		FRQMOD0097-1
+		FRQMOD0046-5
+		FRQMOD0032-1
+		FRQMOD0096-2
+		FRQMOD0038-1
+		FRQMOD0045-8
+		FRQMOD0129-1
+		FRQMOD0006-3
+		FRQMOD0046-2
+		FRQMOD0046-3
+		FRQMOD0046-4
+		FRQMOD0045-4
+		FRQMOD0046-1
+		FRQMOD0082-1
+		FRQMOD0097-2
+		FRQMOD0062-2
+		FRQMOD0045-1
+		FRQMOD0043-4
+		FRQMOD0043-5
+		FRQMOD0130-1
+
+------------------------------------------------
+UCAMOD003-02 Assign Regular Modified Status:  
+
+	Traces from: 
+		UCMOD003 Process Modified Enrolment for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0088-2
+		FRQMOD0083-1
+		FRQMOD0081-1
+		FRQMOD0083-4
+
+------------------------------------------------
+UCAMOD003-03 Provide appropriate term of MSP coverage:  
+
+	Traces from: 
+		UCMOD003 Process Modified Enrolment for Out of Province Studies
+
+	Traces to: 
+		None
+
+------------------------------------------------
+UCAMOD003-04 Request Non-photo BC Services Card:  
+
+	Traces from: 
+		UCMOD003 Process Modified Enrolment for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0031-1
+		FRQMOD0031-2
+
+------------------------------------------------
+UCAMOD003-05 Communicate Approval details to applicant: 
+
+	Traces from: 
+		UCMOD003 Process Modified Enrolment for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0031-3
+
+------------------------------------------------
+UCAMOD003-A1.1 Reject application: The application for Modified Enrolment for OOP Studies does not meet the criteria. Following UCMOD003-01, reject the application for Out of Province Studies, and capture the rejection details.
+
+	Traces from: 
+		UCMOD003 Process Modified Enrolment for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0043-4
+		FRQMOD0059-5
+		FRQMOD0011-3
+
+------------------------------------------------
+UCAMOD003-A1.2 Communicate rejection details to applicant:  
+
+	Traces from: 
+		UCMOD003 Process Modified Enrolment for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0038-3
+		FRQMOD0061-1
+
+------------------------------------------------
+UCAMOD004-01 Establish that criteria for Modified Renewal Health Reason are met: Copies of Primary ID and Secondary ID are received AD Form is complete and meets the defined criteria Attester meets the defined qualification criteria
+
+	Traces from: 
+		UCMOD004 Process Modified Renewal for Health Reason
+
+	Traces to: 
+		FRQMOD0018-5
+		FRQMOD0006-2
+		FRQMOD0045-5
+		FRQMOD0020-3
+		FRQMOD0096-1
+		FRQMOD0129-1
+		FRQMOD0011-1
+		FRQMOD0011-2
+		FRQMOD0045-8
+		FRQMOD0021-3
+		FRQMOD0043-4
+		FRQMOD0019-1
+		FRQMOD0084-2
+		FRQMOD0038-2
+		FRQMOD0038-1
+		FRQMOD0047-2
+		FRQMOD0096-2
+		FRQMOD0045-7
+		FRQMOD0055-4
+		FRQMOD0004-2
+		FRQMOD0018-1
+		FRQMOD0018-2
+		FRQMOD0018-3
+		FRQMOD0045-4
+		FRQMOD0025-1
+		FRQMOD0018-4
+		FRQMOD0047-9
+		FRQMOD0025-2
+		FRQMOD0082-2
+		FRQMOD0043-5
+		FRQMOD0004-1
+		FRQMOD0063-2
+		FRQMOD0082-1
+		FRQMOD0006-3
+		FRQMOD0025-3
+		FRQMOD0084-1
+		FRQMOD0130-1
+
+------------------------------------------------
+UCAMOD004-02 Assign Regular Modified status: 
+
+	Traces from: 
+		UCMOD004 Process Modified Renewal for Health Reason
+
+	Traces to: 
+		FRQMOD0083-1
+		FRQMOD0081-1
+		FRQMOD0083-4
+
+------------------------------------------------
+UCAMOD004-03 Provide appropriate term of MSP coverage: 
+
+	Traces from: 
+		UCMOD004 Process Modified Renewal for Health Reason
+
+	Traces to: 
+		None
+
+------------------------------------------------
+UCAMOD004-04 Request Non-Photo BC Services card: 
+
+	Traces from: 
+		UCMOD004 Process Modified Renewal for Health Reason
+
+	Traces to: 
+		FRQMOD0031-1
+		FRQMOD0031-2
+
+------------------------------------------------
+UCAMOD004-05 Communicate approval details to beneficiary: 
+
+	Traces from: 
+		UCMOD004 Process Modified Renewal for Health Reason
+
+	Traces to: 
+		FRQMOD0031-3
+
+------------------------------------------------
+UCAMOD004-A1.1 Reject the application: Criteria for Modified Renewal Health Reason are not met. Following UCMOD004-01, reject the application and capture details.
+
+	Traces from: 
+		UCMOD004 Process Modified Renewal for Health Reason
+
+	Traces to: 
+		FRQMOD0043-4
+		FRQMOD0059-5
+		FRQMOD0011-3
+
+------------------------------------------------
+UCAMOD004-A1.2 Communicate rejection details to beneficiary: 
+
+	Traces from: 
+		UCMOD004 Process Modified Renewal for Health Reason
+
+	Traces to: 
+		FRQMOD0061-1
+		FRQMOD0038-3
+
+------------------------------------------------
+UCAMOD005-01 Establish that criteria for Modified Renewal of Enrolment for OOP Studies are met: A copy of Primary ID and a copy of Secondary ID are received The AD form is complete and meets the defined criteria Proof of OOP studies is received and meets the defined criteria
+
+	Traces from: 
+		UCMOD005 Process Modified Renewal for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0045-4
+		FRQMOD0046-3
+		FRQMOD0046-4
+		FRQMOD0129-1
+		FRQMOD0055-4
+		FRQMOD0045-7
+		FRQMOD0063-2
+		FRQMOD0038-2
+		FRQMOD0006-2
+		FRQMOD0046-5
+		FRQMOD0046-6
+		FRQMOD0043-5
+		FRQMOD0038-1
+		FRQMOD0045-8
+		FRQMOD0082-1
+		FRQMOD0046-1
+		FRQMOD0082-2
+		FRQMOD0006-3
+		FRQMOD0046-2
+		FRQMOD0047-2
+		FRQMOD0096-2
+		FRQMOD0043-4
+		FRQMOD0096-1
+		FRQMOD0047-9
+		FRQMOD0130-1
+
+------------------------------------------------
+UCAMOD005-02 Assign Regular Modified Status:  
+
+	Traces from: 
+		UCMOD005 Process Modified Renewal for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0088-2
+		FRQMOD0083-1
+		FRQMOD0081-1
+		FRQMOD0083-4
+
+------------------------------------------------
+UCAMOD005-03 Renew MSP coverage:  
+
+	Traces from: 
+		UCMOD005 Process Modified Renewal for Out of Province Studies
+
+	Traces to: 
+		None
+
+------------------------------------------------
+UCAMOD005-04 Request Non-photo BC Service Card:  
+
+	Traces from: 
+		UCMOD005 Process Modified Renewal for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0031-1
+		FRQMOD0026-2
+		FRQMOD0031-2
+
+------------------------------------------------
+UCAMOD005-05 Communicate approval details to applicant: 
+
+	Traces from: 
+		UCMOD005 Process Modified Renewal for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0031-3
+
+------------------------------------------------
+UCAMOD005-A1.1 Reject the application: Criteria for Modified Renewal Out of Province Studies are not met. Following UCMOD005-01, reject the application and capture the rejection details.
+
+	Traces from: 
+		UCMOD005 Process Modified Renewal for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0059-5
+		FRQMOD0043-4
+		FRQMOD0011-3
+
+------------------------------------------------
+UCAMOD005-A1.2 Communicate rejection details to beneficiary:  
+
+	Traces from: 
+		UCMOD005 Process Modified Renewal for Out of Province Studies
+
+	Traces to: 
+		FRQMOD0038-3
+		FRQMOD0061-1
+
+------------------------------------------------
+UCAMOD006-01 Establish that criteria for Modified Renewal for Health Reason and No Secondary Id are met: Establish that a copy of primary ID is received. Establish that AD form is complete and meets the defined criteria. Establish that all attesters meet the defined qualification criteria.
+
+	Traces from: 
+		UCMOD006 Process Modified Renewal for Health Reason and No Secondary Id
+
+	Traces to: 
+		FRQMOD0063-2
+		FRQMOD0038-2
+		FRQMOD0011-1
+		FRQMOD0004-2
+		FRQMOD0018-1
+		FRQMOD0018-2
+		FRQMOD0018-3
+		FRQMOD0018-4
+		FRQMOD0018-5
+		FRQMOD0019-1
+		FRQMOD0020-3
+		FRQMOD0021-3
+		FRQMOD0025-1
+		FRQMOD0025-2
+		FRQMOD0043-4
+		FRQMOD0132-2
+		FRQMOD0038-1
+		FRQMOD0055-4
+		FRQMOD0082-1
+		FRQMOD0096-2
+		FRQMOD0045-7
+		FRQMOD0045-8
+		FRQMOD0051-7
+		FRQMOD0047-2
+		FRQMOD0011-2
+		FRQMOD0073-3
+		FRQMOD0073-1
+		FRQMOD0073-2
+		FRQMOD0129-1
+		FRQMOD0084-2
+		FRQMOD0082-2
+		FRQMOD0043-5
+		FRQMOD0004-1
+		FRQMOD0026-1
+		FRQMOD0050-6
+		FRQMOD0006-2
+		FRQMOD0096-1
+		FRQMOD0032-1
+		FRQMOD0132-1
+		FRQMOD0045-4
+		FRQMOD0025-3
+		FRQMOD0084-1
+		FRQMOD0006-3
+		FRQMOD0130-1
+
+------------------------------------------------
+UCAMOD006-02 Assign regular Modified status: 
+
+	Traces from: 
+		UCMOD006 Process Modified Renewal for Health Reason and No Secondary Id
+
+	Traces to: 
+		FRQMOD0083-1
+		FRQMOD0081-1
+		FRQMOD0083-4
+
+------------------------------------------------
+UCAMOD006-03 Renew MSP coverage: 
+
+	Traces from: 
+		UCMOD006 Process Modified Renewal for Health Reason and No Secondary Id
+
+	Traces to: 
+		None
+
+------------------------------------------------
+UCAMOD006-04 Request a Non-Photo BC Services card: 
+
+	Traces from: 
+		UCMOD006 Process Modified Renewal for Health Reason and No Secondary Id
+
+	Traces to: 
+		FRQMOD0031-1
+		FRQMOD0026-2
+
+------------------------------------------------
+UCAMOD006-05 Communicate approval details to beneficiary: 
+
+	Traces from: 
+		UCMOD006 Process Modified Renewal for Health Reason and No Secondary Id
+
+	Traces to: 
+		FRQMOD0031-3
+
+------------------------------------------------
+UCAMOD006-A1.1 Reject the application: Criteria for Modified Renewal Health Reason and No Sec ID are not met. Following UCMOD006-01, reject the application and capture details.
+
+	Traces from: 
+		UCMOD006 Process Modified Renewal for Health Reason and No Secondary Id
+
+	Traces to: 
+		FRQMOD0043-4
+		FRQMOD0059-5
+		FRQMOD0011-3
+
+------------------------------------------------
+UCAMOD006-A1.2 Communicate rejection details to beneficiary: 
+
+	Traces from: 
+		UCMOD006 Process Modified Renewal for Health Reason and No Secondary Id
+
+	Traces to: 
+		FRQMOD0038-3
+		FRQMOD0061-1
+
+------------------------------------------------
+UCAMOD007-01 Establish that criteria for Modified Renewal of Enrolment for OOP studies and No Secondary ID are met: Establish that a copy of Primary ID is received. Establish that AD form is complete and meets the defined criteria. Establish that Attester meets the defined qualification criteria. Establish that proof of OOP Studies is received and meets defined criteria.
+
+	Traces from: 
+		UCMOD007 Process Modified Renewal for Out of Province Studies and No Sec ID
+
+	Traces to: 
+		FRQMOD0129-1
+		FRQMOD0011-2
+		FRQMOD0038-2
+		FRQMOD0063-2
+		FRQMOD0045-4
+		FRQMOD0045-7
+		FRQMOD0006-3
+		FRQMOD0038-1
+		FRQMOD0025-2
+		FRQMOD0132-2
+		FRQMOD0073-2
+		FRQMOD0073-1
+		FRQMOD0045-8
+		FRQMOD0032-1
+		FRQMOD0046-5
+		FRQMOD0011-1
+		FRQMOD0006-2
+		FRQMOD0025-1
+		FRQMOD0096-1
+		FRQMOD0082-1
+		FRQMOD0051-7
+		FRQMOD0046-1
+		FRQMOD0046-2
+		FRQMOD0046-3
+		FRQMOD0046-4
+		FRQMOD0004-2
+		FRQMOD0051-8
+		FRQMOD0043-5
+		FRQMOD0132-1
+		FRQMOD0096-2
+		FRQMOD0055-4
+		FRQMOD0047-2
+		FRQMOD0025-3
+		FRQMOD0073-3
+		FRQMOD0082-2
+		FRQMOD0026-1
+		FRQMOD0004-1
+		FRQMOD0043-4
+		FRQMOD0130-1
+
+------------------------------------------------
+UCAMOD007-02 Assign regular Modified status: 
+
+	Traces from: 
+		UCMOD007 Process Modified Renewal for Out of Province Studies and No Sec ID
+
+	Traces to: 
+		FRQMOD0083-4
+		FRQMOD0081-1
+		FRQMOD0088-2
+		FRQMOD0083-1
+
+------------------------------------------------
+UCAMOD007-03 Renew MSP coverage: 
+
+	Traces from: 
+		UCMOD007 Process Modified Renewal for Out of Province Studies and No Sec ID
+
+	Traces to: 
+		None
+
+------------------------------------------------
+UCAMOD007-04 Request non-photo BCSC: 
+
+	Traces from: 
+		UCMOD007 Process Modified Renewal for Out of Province Studies and No Sec ID
+
+	Traces to: 
+		FRQMOD0031-1
+		FRQMOD0026-2
+
+------------------------------------------------
+UCAMOD007-05 Communicate approval details to individual: 
+
+	Traces from: 
+		UCMOD007 Process Modified Renewal for Out of Province Studies and No Sec ID
+
+	Traces to: 
+		FRQMOD0031-3
+
+------------------------------------------------
+UCAMOD007-A1.1 Reject the application: Criteria for Modified Renewal Out of Province Studies and No Sec ID is not met. Following UCMOD006-01, reject the application and capture the rejection details.
+
+	Traces from: 
+		UCMOD007 Process Modified Renewal for Out of Province Studies and No Sec ID
+
+	Traces to: 
+		FRQMOD0059-5
+		FRQMOD0011-3
+		FRQMOD0043-4
+
+------------------------------------------------
+UCAMOD007-A1.2 Communicate rejection details to beneficiary: 
+
+	Traces from: 
+		UCMOD007 Process Modified Renewal for Out of Province Studies and No Sec ID
+
+	Traces to: 
+		FRQMOD0061-1
+		FRQMOD0038-3
+
+------------------------------------------------
+UCAMOD008-01 Establish that the individual is currently enrolled in MSP: 
+
+	Traces from: 
+		UCMOD008 Process Request for Temporary MSP coverage Extension
+
+	Traces to: 
+		FRQMOD0125-4
+		FRQMOD0125-1
+		FRQMOD0125-2
+		FRQMOD0125-3
+		FRQMOD0133-1
+
+------------------------------------------------
+UCAMOD008-02 Establish that this is not a subsequent request: 
+
+	Traces from: 
+		UCMOD008 Process Request for Temporary MSP coverage Extension
+
+	Traces to: 
+		FRQMOD0121-1
+
+------------------------------------------------
+UCAMOD008-03 Extend coverage by 60 days: 
+
+	Traces from: 
+		UCMOD008 Process Request for Temporary MSP coverage Extension
+
+	Traces to: 
+		FRQMOD0123-1
+		FRQMOD0120-1
+		FRQMOD0120-3
+
+------------------------------------------------
+UCAMOD008-04 Communicate new expiry date to the individual: 
+
+	Traces from: 
+		UCMOD008 Process Request for Temporary MSP coverage Extension
+
+	Traces to: 
+		FRQMOD0122-2
+		FRQMOD0122-1
+		FRQMOD0120-2
+
+------------------------------------------------
+UCAMOD008-A1.1 Deny request: Individual is not currently enrolled in MSP. Following UCMOD008-01, deny request and capture details.
+
+	Traces from: 
+		UCMOD008 Process Request for Temporary MSP coverage Extension
+
+	Traces to: 
+		FRQMOD0120-3
+
+------------------------------------------------
+UCAMOD008-A1.2 Communicate denial details to the individual: 
+
+	Traces from: 
+		UCMOD008 Process Request for Temporary MSP coverage Extension
+
+	Traces to: 
+		FRQMOD0133-2
+
+------------------------------------------------
+UCAMOD008-A2.1 Deny request: This is a subsequent request for Temporary Extension. Following UCMOD008-02, deny request and capture details.
+
+	Traces from: 
+		UCMOD008 Process Request for Temporary MSP coverage Extension
+
+	Traces to: 
+		FRQMOD0120-3
+
+------------------------------------------------
+UCAMOD008-A2.2 Communicate denial details to the individual: 
+
+	Traces from: 
+		UCMOD008 Process Request for Temporary MSP coverage Extension
+
+	Traces to: 
+		FRQMOD0133-2
+
+------------------------------------------------
+UCAMOD009-01 Establish that the individual exists in the MSP Enrolment system: 
+
+	Traces from: 
+		UCMOD009 Process Request for Statutory Absence Extension
+
+	Traces to: 
+		FRQMOD0116-1
+		FRQMOD0116-2
+
+------------------------------------------------
+UCAMOD009-02 Categorize Statutory Absence type: 
+
+	Traces from: 
+		UCMOD009 Process Request for Statutory Absence Extension
+
+	Traces to: 
+		FRQMOD0086-5
+		FRQMOD0086-1
+		FRQMOD0086-2
+		FRQMOD0086-3
+
+------------------------------------------------
+UCAMOD009-03 Establish that sufficient documentation for their absence type is received: 
+
+	Traces from: 
+		UCMOD009 Process Request for Statutory Absence Extension
+
+	Traces to: 
+		FRQMOD0110-5
+		FRQMOD0109-5
+		FRQMOD0109-6
+		FRQMOD0109-8
+		FRQMOD0109-9
+		FRQMOD0109-10
+		FRQMOD0109-11
+		FRQMOD0109-13
+		FRQMOD0109-14
+
+------------------------------------------------
+UCAMOD009-04 Extend coverage according to absence type: 
+
+	Traces from: 
+		UCMOD009 Process Request for Statutory Absence Extension
+
+	Traces to: 
+		FRQMOD0113-10
+		FRQMOD0112-1
+		FRQMOD0113-4
+		FRQMOD0113-6
+		FRQMOD0113-7
+		FRQMOD0113-8
+		FRQMOD0113-9
+		FRQMOD0109-15
+
+------------------------------------------------
+UCAMOD009-05 Communicate new expiry date to the individual: 
+
+	Traces from: 
+		UCMOD009 Process Request for Statutory Absence Extension
+
+	Traces to: 
+		FRQMOD0111-1
+
+------------------------------------------------
+UCAMOD009-A1.1 Deny request: Individual does not exist in the MSP Enrolment System. Following UCMOD009-01, deny request and capture details.
+
+	Traces from: 
+		UCMOD009 Process Request for Statutory Absence Extension
+
+	Traces to: 
+		FRQMOD0109-15
+
+------------------------------------------------
+UCAMOD009-A1.2 Communicate denial details to the individual: 
+
+	Traces from: 
+		UCMOD009 Process Request for Statutory Absence Extension
+
+	Traces to: 
+		FRQMOD0133-2
+
+------------------------------------------------
+UCAMOD009-A2.1 Deny request: Individual does not meet documentation requirements. Following UCMOD009-03, deny request and capture details.
+
+	Traces from: 
+		UCMOD009 Process Request for Statutory Absence Extension
+
+	Traces to: 
+		FRQMOD0109-15
+
+------------------------------------------------
+UCAMOD009-A2.2 Communicate denial details to the individual: 
+
+	Traces from: 
+		UCMOD009 Process Request for Statutory Absence Extension
+
+	Traces to: 
+		FRQMOD0133-2
+
+------------------------------------------------
+UCAMOD010-01 Establish that criteria for Modified Renewal Health Reason Permanent are met: Copies of Primary ID and Secondary ID are received AD Form is complete and meets the defined criteria (both Regular Modified Renewal health criteria and Permanent criteria) Attester meets the defined qualification criteria
+
+	Traces from: 
+		UCMOD010 Process Modified Renewal for Health Reason Permanent
+
+	Traces to: 
+		FRQMOD0038-2
+		FRQMOD0021-3
+		FRQMOD0045-7
+		FRQMOD0019-1
+		FRQMOD0038-1
+		FRQMOD0006-2
+		FRQMOD0055-4
+		FRQMOD0045-8
+		FRQMOD0006-3
+		FRQMOD0020-3
+		FRQMOD0011-2
+		FRQMOD0129-1
+		FRQMOD0011-1
+		FRQMOD0018-1
+		FRQMOD0018-2
+		FRQMOD0018-3
+		FRQMOD0045-5
+		FRQMOD0025-1
+		FRQMOD0018-4
+		FRQMOD0018-5
+		FRQMOD0025-2
+		FRQMOD0096-2
+		FRQMOD0043-5
+		FRQMOD0004-1
+		FRQMOD0004-2
+		FRQMOD0084-2
+		FRQMOD0043-4
+		FRQMOD0063-2
+		FRQMOD0047-2
+		FRQMOD0096-1
+		FRQMOD0032-1
+		FRQMOD0045-4
+		FRQMOD0025-3
+		FRQMOD0084-5
+		FRQMOD0084-1
+		FRQMOD0084-4
+		FRQMOD0130-1
+
+------------------------------------------------
+UCAMOD010-02 Assign Permanent Modified status: 
+
+	Traces from: 
+		UCMOD010 Process Modified Renewal for Health Reason Permanent
+
+	Traces to: 
+		FRQMOD0081-1
+		FRQMOD0085-1
+		FRQMOD0085-2
+		FRQMOD0088-2
+		FRQMOD0087-2
+
+------------------------------------------------
+UCAMOD010-03 Provide permanent exemption from renewal of MSP enrolment: 
+
+	Traces from: 
+		UCMOD010 Process Modified Renewal for Health Reason Permanent
+
+	Traces to: 
+		FRQMOD0089-3
+		FRQMOD0089-4
+		FRQMOD0089-2
+
+------------------------------------------------
+UCAMOD010-04 Request Non-Photo BC Services card: 
+
+	Traces from: 
+		UCMOD010 Process Modified Renewal for Health Reason Permanent
+
+	Traces to: 
+		FRQMOD0090-2
+		FRQMOD0031-1
+		FRQMOD0090-1
+		FRQMOD0031-2
+
+------------------------------------------------
+UCAMOD010-05 Communicate approval details to beneficiary: 
+
+	Traces from: 
+		UCMOD010 Process Modified Renewal for Health Reason Permanent
+
+	Traces to: 
+		FRQMOD0031-3
+
+------------------------------------------------
+UCAMOD010-A1.1 Reject the application: Criteria for Modified Renewal Health Reason are not met. Following UCMOD010-01, reject the application and capture details.
+
+	Traces from: 
+		UCMOD010 Process Modified Renewal for Health Reason Permanent
+
+	Traces to: 
+		FRQMOD0059-5
+		FRQMOD0043-4
+		FRQMOD0011-3
+
+------------------------------------------------
+UCAMOD010-A1.2 Communicate rejection details to beneficiary: 
+
+	Traces from: 
+		UCMOD010 Process Modified Renewal for Health Reason Permanent
+
+	Traces to: 
+		FRQMOD0061-1
+		FRQMOD0038-3
+
+------------------------------------------------
+UCAMOD011-01 Identify and extract specified information in support of audit: 
+
+	Traces from: 
+		UCMOD011 Process Request for Information in Support of Audit
+
+	Traces to: 
+		FRQMOD0001-4
+		FRQMOD0003-2
+		FRQMOD0003-1
+
+------------------------------------------------
+UCAMOD011-02 Communicate specified audit information to requester: 
+
+	Traces from: 
+		UCMOD011 Process Request for Information in Support of Audit
+
+	Traces to: 
+		FRQMOD0001-3
+
+------------------------------------------------
+UCAMOD012-01 Establish that there are individuals who require an MSP Enrolment notification: 
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0106-1
+		FRQMOD0098-3
+		FRQMOD0100-3
+		FRQMOD0100-4
+		FRQMOD0101-6
+		FRQMOD0106-2
+
+------------------------------------------------
+UCAMOD012-02 Identify and extract required MSP Enrolment information: 
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0098-9
+
+------------------------------------------------
+UCAMOD012-03 Produce notification with all pertinent information to be sent to the individual: 
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0098-5
+
+------------------------------------------------
+UCAMOD012-04 Communicate notification to the individual: 
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0098-6
+
+------------------------------------------------
+UCAMOD012-A1.1 Establish that individual has Regular Modified Status: Individuals require Renewal of MSP Enrolment Notification. Following UCMOD012-02, establish that the individual has Regular Modified status.
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0089-2
+
+------------------------------------------------
+UCAMOD012-A1.2 Establish that individual does not have a Statutory Absence/Temp Coverage Extension: 
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0105-2
+		FRQMOD0103-2
+		FRQMOD0104-2
+		FRQMOD0105-1
+		FRQMOD0106-1
+		FRQMOD0106-2
+
+------------------------------------------------
+UCAMOD012-A1.3 Identify and extract required MSP Renewal information: 
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0098-9
+
+------------------------------------------------
+UCAMOD012-A1.4 Produce notification with all pertinent information to be sent to the individual: 
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0100-1
+		FRQMOD0098-5
+
+------------------------------------------------
+UCAMOD012-A1.5 Communicate notification to the individual: 
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0101-7
+		FRQMOD0098-6
+		FRQMOD0100-5
+
+------------------------------------------------
+UCAMOD012-A2.1 Suppress notification: Individual has Permanent Modified status. Following UCMOD012-A1.1, suppress notification.
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0089-3
+
+------------------------------------------------
+UCAMOD012-A3.1 Suppress notification: Individual has Statutory Absence Extension or MSP Coverage Extension and received notification within 6 months. Following UCMOD012-A1.2, suppress notification.
+
+	Traces from: 
+		UCMOD012 Communicate Modified Enrolment and Renewal Notifications
+
+	Traces to: 
+		FRQMOD0104-3
+		FRQMOD0103-3
+
+------------------------------------------------
+UCAMOD013-01 Establish that the request is for a report supporting Modified Enrolment: 
+
+	Traces from: 
+		UCMOD013 Produce and Communicate Modified Enrolment and Renewal Reports
+
+	Traces to: 
+		FRQMOD0107-2
+
+------------------------------------------------
+UCAMOD013-02 Identify and extract required information regarding Modified Enrolment: 
+
+	Traces from: 
+		UCMOD013 Produce and Communicate Modified Enrolment and Renewal Reports
+
+	Traces to: 
+		FRQMOD0107-1
+
+------------------------------------------------
+UCAMOD013-03 Produce report containing the required information: 
+
+	Traces from: 
+		UCMOD013 Produce and Communicate Modified Enrolment and Renewal Reports
+
+	Traces to: 
+		FRQMOD0107-3
+
+------------------------------------------------
+UCAMOD013-04 Communicate the report to the requester: 
+
+	Traces from: 
+		UCMOD013 Produce and Communicate Modified Enrolment and Renewal Reports
+
+	Traces to: 
+		FRQMOD0107-4
+
+------------------------------------------------
+UCAMOD013-A1.1 Identify and extract required information regarding Modified Renewal: Renewal Report. Following UCMOD013-01, identify and extract required information regarding Modified Renewal.
+
+	Traces from: 
+		UCMOD013 Produce and Communicate Modified Enrolment and Renewal Reports
+
+	Traces to: 
+		FRQMOD0107-1
+
+------------------------------------------------
+UCAMOD013-A1.2 Produce report containing the required information: 
+
+	Traces from: 
+		UCMOD013 Produce and Communicate Modified Enrolment and Renewal Reports
+
+	Traces to: 
+		FRQMOD0107-3
+
+------------------------------------------------
+UCAMOD013-A1.3 Communicate the report to the requester: 
+
+	Traces from: 
+		UCMOD013 Produce and Communicate Modified Enrolment and Renewal Reports
+
+	Traces to: 
+		FRQMOD0107-4
+
+------------------------------------------------
+UCAMOD014-01 Identify denied AD form request: 
+
+	Traces from: 
+		UCMOD014 Process Appeal of Denied Request for AD Form
+
+	Traces to: 
+		FRQMOD0134-1
+
+------------------------------------------------
+UCAMOD014-02 Capture appeal details: 
+
+	Traces from: 
+		UCMOD014 Process Appeal of Denied Request for AD Form
+
+	Traces to: 
+		FRQMOD0134-2
+
+------------------------------------------------
+UCAMOD014-03 Escalate appeal to MBB: 
+
+	Traces from: 
+		UCMOD014 Process Appeal of Denied Request for AD Form
+
+	Traces to: 
+		FRQMOD0134-3
+
+------------------------------------------------
+UCAMOD014-04 Receive and capture decision from MBB: 
+
+	Traces from: 
+		UCMOD014 Process Appeal of Denied Request for AD Form
+
+	Traces to: 
+		FRQMOD0014-3
+		FRQMOD0134-4
+
+------------------------------------------------
+UCAMOD014-05 Issue AD form: 
+
+	Traces from: 
+		UCMOD014 Process Appeal of Denied Request for AD Form
+
+	Traces to: 
+		FRQMOD0029-4
+		FRQMOD0030-4
+		FRQMOD0028-2
+		FRQMOD0014-2
+
+------------------------------------------------
+UCAMOD014-06 Capture AD form issuance: 
+
+	Traces from: 
+		UCMOD014 Process Appeal of Denied Request for AD Form
+
+	Traces to: 
+		FRQMOD0003-2
+		FRQMOD0003-1
+
+------------------------------------------------
+UCAMOD014-07 Communicate approval decision to individual: 
+
+	Traces from: 
+		UCMOD014 Process Appeal of Denied Request for AD Form
+
+	Traces to: 
+		FRQMOD0134-6
+
+------------------------------------------------
+UCAMOD014-A1.1 Communicate denial decision to individual: Appeal request is denied by MBB. Following UCMOD014-04, communicate denial decision to the individual.
+
+	Traces from: 
+		UCMOD014 Process Appeal of Denied Request for AD Form
+
+	Traces to: 
+		FRQMOD0134-6
+
+------------------------------------------------
+UCAMOD015-01 Identify rejected AD form: 
+
+	Traces from: 
+		UCMOD015 Process Appeal of Rejected HIBC AD Form
+
+	Traces to: 
+		FRQMOD0003-2
+		FRQMOD0136-1
+		FRQMOD0003-1
+		FRQMOD0136-2
+
+------------------------------------------------
+UCAMOD015-02 Capture appeal details: 
+
+	Traces from: 
+		UCMOD015 Process Appeal of Rejected HIBC AD Form
+
+	Traces to: 
+		FRQMOD0134-2
+
+------------------------------------------------
+UCAMOD015-03 Escalate appeal to MBB: 
+
+	Traces from: 
+		UCMOD015 Process Appeal of Rejected HIBC AD Form
+
+	Traces to: 
+		FRQMOD0134-3
+
+------------------------------------------------
+UCAMOD015-04 Receive and capture decision from MBB: 
+
+	Traces from: 
+		UCMOD015 Process Appeal of Rejected HIBC AD Form
+
+	Traces to: 
+		FRQMOD0134-4
+
+------------------------------------------------
+UCAMOD015-05 Provide appropriate term of MSP coverage: 
+
+	Traces from: 
+		UCMOD015 Process Appeal of Rejected HIBC AD Form
+
+	Traces to: 
+		None
+
+------------------------------------------------
+UCAMOD015-06 Communicate approval decision to individual: 
+
+	Traces from: 
+		UCMOD015 Process Appeal of Rejected HIBC AD Form
+
+	Traces to: 
+		FRQMOD0134-6
+
+------------------------------------------------
+UCAMOD015-A1.1 Communicate denial decision to Individual: Appeal request is denied by MBB. Following UCMOD015-04, communicate denial decision to the individual.
+
+	Traces from: 
+		UCMOD015 Process Appeal of Rejected HIBC AD Form
+
+	Traces to: 
+		FRQMOD0134-6
+
+------------------------------------------------
+UCAMOD016-01 Identify and extract required AD details: 
+
+	Traces from: 
+		UCMOD016 Communicate HIBC Attestation/Declaration Details to ICBC
+
+	Traces to: 
+		FRQMOD0015-4
+
+------------------------------------------------
+UCAMOD016-02 Communicate AD details to ICBC: 
+
+	Traces from: 
+		UCMOD016 Communicate HIBC Attestation/Declaration Details to ICBC
+
+	Traces to: 
+		FRQMOD0129-4
+		FRQMOD0015-3
+		FRQMOD0035-3
+
+------------------------------------------------
+UCAMOD016-03 Capture communication details: 
+
+	Traces from: 
+		UCMOD016 Communicate HIBC Attestation/Declaration Details to ICBC
+
+	Traces to: 
+		FRQMOD0129-5
+
+------------------------------------------------
+UCAMOD017-01 Establish that individual exists in MSP Enrolment system: 
+
+	Traces from: 
+		UCMOD017 Receive and Process Attestation Details from ICBC
+
+	Traces to: 
+		None
+
+------------------------------------------------
+UCAMOD017-02 Assign Regular Modified status: 
+
+	Traces from: 
+		UCMOD017 Receive and Process Attestation Details from ICBC
+
+	Traces to: 
+		FRQMOD0083-4
+
+------------------------------------------------
+UCAMOD017-03 Capture Attestation details for beneficiary: 
+
+	Traces from: 
+		UCMOD017 Receive and Process Attestation Details from ICBC
+
+	Traces to: 
+		FRQMOD0131-1
+		FRQMOD0129-3
+		FRQMOD0131-2
+		FRQMOD0016-2
+
+------------------------------------------------
+UCAMOD017-A1.1 Capture attestation details: Individual does not exist in the MSP the Enrolment system. Following step UCMOD017-01, capture attestation details.
+
+	Traces from: 
+		UCMOD017 Receive and Process Attestation Details from ICBC
+
+	Traces to: 
+		FRQMOD0131-2
+		FRQMOD0131-1
+		FRQMOD0129-3
+		FRQMOD0016-2
+
+------------------------------------------------
+UCAMOD018-01 Communicate to Individual to contact ICBC: 
+
+	Traces from: 
+		UCMOD018 Redirect Appeal Regarding an ICBC or SDSI Attestation Form
+
+	Traces to: 
+		FRQMOD0135-1
+
+------------------------------------------------
+UCAMOD019-01 Reject the ICBC/SDSI Attestation form:  
+
+	Traces from: 
+		UCMOD019 Process Receipt of an ICBC/SDSI Attestation Form
+
+	Traces to: 
+		FRQMOD0064-2
+
+------------------------------------------------
+UCAMOD020-01 Escalate to appropriate authority: 
+
+	Traces from: 
+		UCMOD020 Process Suspected Attester Misconduct
+
+	Traces to: 
+		FRQMOD0005-2
+
+------------------------------------------------
+UCAMOD020-02 Capture the decision made by the appropriate authority: 
+
+	Traces from: 
+		UCMOD020 Process Suspected Attester Misconduct
+
+	Traces to: 
+		FRQMOD0005-3
+
+------------------------------------------------
+UCAMOD020-03 Apply appropriate sanctions if applicable: 
+
+	Traces from: 
+		UCMOD020 Process Suspected Attester Misconduct
+
+	Traces to: 
+		FRQMOD0005-5
+
+------------------------------------------------
+UCAMOD021-01 Establish that individual exists in MSP Enrolment system: 
+
+	Traces from: 
+		UCMOD021 Revoke Permanent Modified Status
+
+	Traces to: 
+		None
+
+------------------------------------------------
+UCAMOD021-02 Establish Beneficiary has Permanent Modified Status: 
+
+	Traces from: 
+		UCMOD021 Revoke Permanent Modified Status
+
+	Traces to: 
+		FRQMOD0089-2
+
+------------------------------------------------
+UCAMOD021-03 Revoke Permanent Modified status: Individual has Permanent Modified status. Following UCMOD017-03, revoke the Permanent Modified status.
+
+	Traces from: 
+		UCMOD021 Revoke Permanent Modified Status
+
+	Traces to: 
+		FRQMOD0091-2
+
+------------------------------------------------
+UCAMOD021-04 Capture notification details for beneficiary:  
+
+	Traces from: 
+		UCMOD021 Revoke Permanent Modified Status
+
+	Traces to: 
+		FRQMOD0129-3
+		FRQMOD0131-1
+		FRQMOD0131-2
+		FRQMOD0016-2
+
+------------------------------------------------
+UCAMOD021-A1.1 Capture notification details: Individual does not exist in the MPS Enrolment system. Following UCMOD021-01, capture notification details.
+
+	Traces from: 
+		UCMOD021 Revoke Permanent Modified Status
+
+	Traces to: 
+		FRQMOD0129-3
+		FRQMOD0016-2
+		FRQMOD0131-1
+		FRQMOD0131-2
+
+------------------------------------------------
+UCAMOD021-A2.1 Capture notification details for beneficiary: Beneficiary does not have Permanent Modified status. Following UCMOD021-02, capture notification details for beneficiary.
+
+	Traces from: 
+		UCMOD021 Revoke Permanent Modified Status
+
+	Traces to: 
+		FRQMOD0129-3
+		FRQMOD0131-2
+		FRQMOD0016-2
+		FRQMOD0131-1
+
